@@ -1,0 +1,138 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* MENU */
+
+.navegador {
+    border: solid rgb(170, 170, 170) 1px;
+    padding: 1%;
+    display: flex;
+}
+
+.navegador .logo{
+    padding: 0px 20px;
+    color: darkred;
+    font-size: 15px;
+    padding-right: 20%;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: rgb(32, 78, 78);
+}
+
+.menu a:hover {
+    color: white;
+    border: solid black 1px;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 5px;
+}
+
+/* INICIO */
+
+#inicio {
+    background-color: white;
+}
+
+.titulo h1 {
+    text-align: center;
+    padding: 50px;
+    color: darkred;
+    font-size: 35px;
+}
+
+.c-in p{
+    text-align: center;
+    color: black;
+    margin: 23px 23px;
+    font-size: 23px;
+    padding: 0 23px;
+}
+
+.in-img {
+    text-align: center;
+    padding: 30px;
+}
+
+/* CURIOSIDADE */
+
+#curiosidades {
+    background-color: white;
+}
+
+.c-conteudo {
+    font-size: 23px;
+    padding: 30px;
+    margin-top: 23px;
+}
+
+/* NOTICIA */
+
+#noticia {
+    background-color:white;
+}
+
+.c-noticia h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.c-noticia img {
+    padding: 23px;
+    width: 300px;
+    height: 230px;
+}
+
+.c-noticia a:hover {
+    color: rgba(153, 205, 50, 0.623);
+    font-size: 23px;
+}
+
+/* CONTATO */
+
+#contato {
+    background-color: white;
+}
+
+.c_p {
+    text-decoration: black;
+    padding-left: 40px;
+}
+
+.c_c a i{
+    text-decoration: none;
+    padding: 23px;
+    font-size: 20px;
+    display:flexbox;
+    color: rgb(58, 42, 42);
+}
+
+.fac i:hover{
+    color: blue;
+}
+
+.twi i:hover{
+    color: aqua;
+}
+
+.int i:hover{
+    color: #833AB4;
+}
+
+.wha i:hover {
+    color: green;
+}
+
+/* footer */
+footer {
+    color: rgb(82, 79, 79);
+    text-align: center;
+    margin-top: 10px;
+}
